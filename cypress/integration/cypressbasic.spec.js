@@ -5,7 +5,7 @@ describe('MSite', () =>{
     it('Declinar o pagamento para 1 ADT', ()=>{
 
     cy.clearCookies()
-    cy.clearLocalStorage()
+    //cy.clearLocalStorage()
 
     cy.visit('https://hom-m-t1.voegol.com.br')
 
@@ -77,8 +77,15 @@ describe('MSite', () =>{
 
     cy.get('#NomeTitular').type('DIEGO F LIMA')
 
+    
     cy.get('#buttonSubmitPay').click()
 
+    cy.on('window:alert', (str) => {
+        expect(str).to.equal(`Verifique os dados do cartão`)
+      })
+        
+        //'Verifique os dados do cartão'))
+    
 
 
 })
