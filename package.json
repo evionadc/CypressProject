@@ -4,7 +4,7 @@
   "description": "Learn Cypress",
   "main": "index.js",
   "dependencies": {
-    "ajv": "^6.10.2",
+    "ajv": "^6.12.3",
     "asn1": "^0.2.4",
     "async": "^2.6.1",
     "bcrypt-pbkdf": "^1.0.2",
