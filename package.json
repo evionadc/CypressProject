@@ -6,7 +6,7 @@
   "dependencies": {
     "ajv": "^6.10.2",
     "asn1": "^0.2.4",
-    "async": "^2.6.1",
+    "async": "^2.6.4",
     "bcrypt-pbkdf": "^1.0.2",
     "chalk": "^2.4.2",
     "cli-cursor": "^1.0.2",
